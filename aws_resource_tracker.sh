@@ -16,6 +16,9 @@
 #  AWS IAM Users
 #
 
+#Add Debug mode to the script
+set -x
+
 echo "----------------------------------------------------------"
 echo "Listing the S3 Buckets"
 #list s3 buckets
